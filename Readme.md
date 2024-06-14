@@ -105,6 +105,7 @@ Verify the existence of the NGINX container by visiting 65.0.133.237:8000 in my 
 ![Screenshot (446)](https://github.com/manikantaraju427/Provisioning-an-NGINX-Server-with-Terraform-and-Docker/assets/125948783/56afcdf4-17ec-4ade-a5aa-2a14d3f483ab)
 
 * docker ps to see the container.
+  $docker ps
 ![Screenshot (447)](https://github.com/manikantaraju427/Provisioning-an-NGINX-Server-with-Terraform-and-Docker/assets/125948783/60b397b7-1d58-467c-a5ad-8f75b3dc9815)
 
 * To stop the container, run terraform destroy.
