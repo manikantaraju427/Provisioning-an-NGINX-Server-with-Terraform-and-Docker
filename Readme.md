@@ -102,7 +102,7 @@ $terraform apply
 ![Screenshot (444)](https://github.com/manikantaraju427/Provisioning-an-NGINX-Server-with-Terraform-and-Docker/assets/125948783/7ee27f2b-a592-435d-a585-edfc78f727e6)
 
 Verify the existence of the NGINX container by visiting 65.0.133.237:8000 in my web browser or running docker ps to see the container.
-![Screenshot (445)](https://github.com/manikantaraju427/Provisioning-an-NGINX-Server-with-Terraform-and-Docker/assets/125948783/46684140-152e-4398-be8d-0d15fbb1006a)
+![Screenshot (446)](https://github.com/manikantaraju427/Provisioning-an-NGINX-Server-with-Terraform-and-Docker/assets/125948783/56afcdf4-17ec-4ade-a5aa-2a14d3f483ab)
 
 * docker ps to see the container.
 ![Screenshot (447)](https://github.com/manikantaraju427/Provisioning-an-NGINX-Server-with-Terraform-and-Docker/assets/125948783/60b397b7-1d58-467c-a5ad-8f75b3dc9815)
