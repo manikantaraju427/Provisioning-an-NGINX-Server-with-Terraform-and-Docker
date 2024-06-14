@@ -41,7 +41,9 @@ $mkdir learn-terraform-docker-container
 $cd learn-terraform-docker-containe
 ![Screenshot (441)](https://github.com/manikantaraju427/Provisioning-an-NGINX-Server-with-Terraform-and-Docker/assets/125948783/9481920b-6c16-4c9a-8d8f-fe57d5da690b)
 
-* In the working directory, create a file called main.tf
+* In the working directory, create a file called
+
+* main.tf
 
 terraform {
 
@@ -84,6 +86,34 @@ external = 8000
 }
 
 }
+![Screenshot (442)](https://github.com/manikantaraju427/Provisioning-an-NGINX-Server-with-Terraform-and-Docker/assets/125948783/91b1cf9b-4753-4456-9ca5-93362397ebe0)
+
+* Initialize the project, which downloads a plugin called a provider that lets Terraform interact with Docker.
+
+$terraform init
+![Screenshot (443)](https://github.com/manikantaraju427/Provisioning-an-NGINX-Server-with-Terraform-and-Docker/assets/125948783/efc66d80-a166-449d-b539-c0257e3c8d9e)
+
+
+$terraform plan
+
+* Provision the NGINX server container with apply. When Terraform asks you to confirm type yes and press ENTER.
+  
+$terraform apply
+![Screenshot (444)](https://github.com/manikantaraju427/Provisioning-an-NGINX-Server-with-Terraform-and-Docker/assets/125948783/7ee27f2b-a592-435d-a585-edfc78f727e6)
+
+Verify the existence of the NGINX container by visiting 65.0.133.237:8000 in my web browser or running docker ps to see the container.
+![Screenshot (445)](https://github.com/manikantaraju427/Provisioning-an-NGINX-Server-with-Terraform-and-Docker/assets/125948783/46684140-152e-4398-be8d-0d15fbb1006a)
+
+* docker ps to see the container.
+![Screenshot (447)](https://github.com/manikantaraju427/Provisioning-an-NGINX-Server-with-Terraform-and-Docker/assets/125948783/60b397b7-1d58-467c-a5ad-8f75b3dc9815)
+
+* To stop the container, run terraform destroy.
+
+$terraform destroy
+![Screenshot (448)](https://github.com/manikantaraju427/Provisioning-an-NGINX-Server-with-Terraform-and-Docker/assets/125948783/04368590-5548-4234-b3c0-e5f854ea8466)
+
+
+# Thank you for reading!
 
 
 
